@@ -1,16 +1,34 @@
-import React from 'react';
+import React from "react";
 
 interface ServiceBoxProps {
   title: string;
   description: string;
   imageSrc: string;
   imageAlt: string;
+  isFirst?: boolean;
 }
 
-const ServiceBox: React.FC<ServiceBoxProps> = ({ title, description, imageSrc, imageAlt }) => {
+const ServiceBox: React.FC<ServiceBoxProps> = ({
+  title,
+  description,
+  imageSrc,
+  imageAlt,
+  isFirst,
+}) => {
   return (
-    <article className="flex overflow-hidden flex-col self-stretch p-16 my-auto bg-[#547C50] min-w-[240px] rounded-[40px] w-[600px] max-md:px-5 max-md:max-w-full">
-      <img loading="lazy" src={imageSrc} alt={imageAlt} className="object-contain max-w-full rounded-3xl aspect-[2.18] w-[480px]" />
+    <article
+      className={`flex overflow-hidden ${
+        isFirst ? "flex-row-reverse max-md:flex-col pl-16 py-16" : "flex-col p-16"
+      }  self-stretch my-auto bg-[#547C50] rounded-[40px] w-full max-md:px-5 max-md:max-w-full`}
+    >
+      <img
+        loading="lazy"
+        src={imageSrc}
+        alt={imageAlt}
+        className={`object-cover ${
+          isFirst ? "w-[450px] rounded-tl-2xl" : "flex-col rounded-3xl w-full aspect-[2.18]"
+        }`}
+      />
       <div className="flex flex-col justify-center mt-20 w-full max-md:mt-10 max-md:max-w-full">
         <h3 className="text-5xl font-bold tracking-tighter text-white max-md:max-w-full max-md:text-4xl">
           {title}
