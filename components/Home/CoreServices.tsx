@@ -63,7 +63,7 @@ const CoreServices: React.FC = () => {
               imageAlt={service.imageAlt}
             />
           ))}
-          <div className="flex flex-wrap gap-4 w-full">
+          <div className="flex max-md:flex-col gap-4 w-full">
             {services.slice(1, 3).map((service, index) => (
               <ServiceBox
                 key={index}
