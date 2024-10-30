@@ -5,9 +5,9 @@ const CallToAction: React.FC = () => {
     <section className="flex overflow-hidden relative flex-col justify-center items-center px-20 py-44 w-full min-h-[629px] max-md:px-5 max-md:py-24 max-md:max-w-full">
       <img
         loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae643cbb86bad15e59475a28319e878f8a4ad817d24ee445918bccd4e6d1e63d?apiKey=1f7f595eced5468b9fc0d8d091e46289&"
+        src="https://s3-alpha-sig.figma.com/img/04b4/0536/f8cb0d07b321efc300f847d7f371ea71?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DMeiLzTN7BviRxhMmc4KMQK0tafDWoG1RpFF8IuggqaDNUhTKxI~aE1GvCOKJqS~hLZ6ABkHSLA25uePFrKgYxBHrdWv6VulIR9O5-qV0BT4VVXXyBLcFG1jngUTMK6HOntdkRtytBB5FLWfnYZr5VRRlAokcftd-O24jPdapQ3MEnEJVa-Y47Puch-E8CV~s1JzwkKM~EbhLcoEXV0BspJrSiBVujCJfYnXhtSFycmQxI9CIxShbBAv9RAaks7Pj-5J6lLWnwsKHPPsnr40pM7xsmeNV0~E9ZINFnb-IlrMN~SILPAIRowVfyIFaAJ3KlPW7PQEpZuOdnk3PgeRnQ__"
         alt=""
-        className="object-cover absolute inset-0 size-full"
+        className="object-cover absolute inset-0 size-full opacity-40"
       />
       <div className="flex relative flex-col mb-0 w-full max-w-[1199px] max-md:mb-2.5 max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">

@@ -55,7 +55,7 @@ const Services: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap gap-6 justify-between mt-16 w-full max-md:mt-10 max-md:max-w-full">
+        <div className="flex flex-wrap gap-6 mt-16 w-full max-md:mt-10 max-md:max-w-full">
           {servicesData.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
