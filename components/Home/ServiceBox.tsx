@@ -26,7 +26,7 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({
         src={imageSrc}
         alt={imageAlt}
         className={`object-cover ${
-          isFirst ? "w-[450px] rounded-tl-2xl" : "flex-col rounded-3xl w-full aspect-[2.18]"
+          isFirst ? "w-[450px] md:rounded-tl-2xl rounded-2xl" : "flex-col rounded-3xl w-full aspect-[2.18]"
         }`}
       />
       <div className="flex flex-col justify-center mt-20 w-full max-md:mt-10 max-md:max-w-full">

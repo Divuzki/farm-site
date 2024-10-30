@@ -12,7 +12,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col py-8 pr-4 pl-8 bg-white rounded-3xl min-w-[240px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] w-[282px] max-md:pl-5 b border">
+    <div className="flex flex-col py-8 pr-4 pl-8 bg-white rounded-3xl max-md:w-full min-w-[240px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] w-[282px] max-md:pl-5 b border">
       <img
         loading="lazy"
         src={icon}

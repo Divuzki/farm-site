@@ -7,7 +7,7 @@ const CallToAction: React.FC = () => {
         loading="lazy"
         src="https://s3-alpha-sig.figma.com/img/04b4/0536/f8cb0d07b321efc300f847d7f371ea71?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DMeiLzTN7BviRxhMmc4KMQK0tafDWoG1RpFF8IuggqaDNUhTKxI~aE1GvCOKJqS~hLZ6ABkHSLA25uePFrKgYxBHrdWv6VulIR9O5-qV0BT4VVXXyBLcFG1jngUTMK6HOntdkRtytBB5FLWfnYZr5VRRlAokcftd-O24jPdapQ3MEnEJVa-Y47Puch-E8CV~s1JzwkKM~EbhLcoEXV0BspJrSiBVujCJfYnXhtSFycmQxI9CIxShbBAv9RAaks7Pj-5J6lLWnwsKHPPsnr40pM7xsmeNV0~E9ZINFnb-IlrMN~SILPAIRowVfyIFaAJ3KlPW7PQEpZuOdnk3PgeRnQ__"
         alt=""
-        className="object-cover absolute inset-0 size-full opacity-40"
+        className="object-cover absolute inset-0 size-full opacity-20 bg-black"
       />
       <div className="flex relative flex-col mb-0 w-full max-w-[1199px] max-md:mb-2.5 max-md:max-w-full">
         <div className="flex flex-col w-full max-md:max-w-full">
@@ -24,7 +24,7 @@ const CallToAction: React.FC = () => {
             </a>
             <a
               href="#"
-              className="overflow-hidden gap-2.5 self-stretch px-6 py-5 my-auto rounded-3xl bg-stone-600 min-h-[45px] shadow-[0,0,0.20_inset] w-[120px] max-md:px-5"
+              className="overflow-hidden gap-2.5 self-stretch px-6 py-5 my-auto rounded-3xl bg-[#547C50] min-h-[45px] shadow-[0,0,0.20_inset] w-[120px] max-md:px-5"
             >
               Contact Us
             </a>

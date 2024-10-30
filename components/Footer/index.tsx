@@ -10,13 +10,10 @@ const Footer: React.FC = () => {
             <div className="flex gap-2.5 justify-center items-center self-start text-3xl font-medium">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5923e2e2e93d9e2258fb02a74b3543774f4457b9f75033c6f19dd5c9fb6b9a3?apiKey=1f7f595eced5468b9fc0d8d091e46289&"
+                src="https://s3-alpha-sig.figma.com/img/aaff/d8e8/f83a4ff1c2c1e850645fd80dc65b3a17?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WHiCJYt2TzsrRZY6LxdMxsdCOeSSc-D5Fmi8kgHskEpKItZ4naJxU7rljy0om3c9i5aRw5hR0S2iTciz0NmfZzaREsUGARFxhfRvKpTNPB2j6-CxVxxQ3Sx7gLMQdbYzAmOXUd~XxmVqzpxE5Yszj3v~5bHYQ7NzUOlIqmMUFAOODFxnFu6gzP3o9ov1Bp3dgibPLTf9N9TriDCBG0p0oam~w8Ta4aTMW9xdeSyV4Svl1OuVgZh0Pg1FXfRkcWGdTaU00CDDccWRMMZAIjvFalSeOm18-w0rvUKlmjeXxmyRE1I4vIYbPvWlTw8kkzeWUTFRSLKlJMdEmCi18KDUjw__"
                 alt=""
-                className="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]"
+                className="object-contain shrink-0 self-stretch my-auto aspect-square w-[50px]"
               />
-              <div className="self-stretch my-auto border-zinc-800">
-                Brand Name
-              </div>
             </div>
             <p className="mt-2.5 text-sm tracking-tight leading-6">
               Enhance your skills with cutting-edge learning resources and

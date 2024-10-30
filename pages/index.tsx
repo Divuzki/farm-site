@@ -8,12 +8,12 @@ import CoreServices from "@/components/Home/CoreServices";
 export default function Home() {
   return (
     <Layout>
-      <section className="flex relative flex-col justify-center w-full py-24 items-center">
+      <section className="flex relative flex-col justify-center w-full py-40 items-center">
         <img
           loading="lazy"
           src="https://s3-alpha-sig.figma.com/img/b1d4/801f/569c0ea7fadf56032795b64bb8dfc910?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PZjopebG9Gp~N66v7rH53ihStPth~DSeA7h3QvLaic42nq3Lc7TcS82NVeqitVwTk6c2lZzL-wT2Zp0f6HExLEy1bJ041qq3O9legRHnKqZ5T62Lr21pCbDsCoNxIrnqQhPneuTry7F80-qUdPdaU--z2nmmWlbTZrbCgsY4YE8N13dLxys186Jfd-zH9VRXsuWsHk0ddBo~vFjJ6fAbkjx7aqORtiN-HmxWLc-caTHq4AmjBP8hSQtnEQyALSZhM1NF4EzSbpKMOx0FGgiQA2IU2bd2jpqBHnqGQ3xwyznHSMk6-ssRp-SHtTBfmTi6Ad8HBzkhSgfejLS1PIgVjQ__"
           alt=""
-          className="object-cover self-stretch z-[-1] w-full opacity-40 h-full absolute top-0 left-0"
+          className="object-cover self-stretch z-[-1] w-full opacity-20 bg-black h-full absolute top-0 left-0"
         />
         <h1 className="text-6xl font-bold text-center text-white leading-[84px] max-md:max-w-full max-md:text-4xl max-md:leading-[66px]">
           Empowering sustainable agriculture through innovative practices and
