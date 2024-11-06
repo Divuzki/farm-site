@@ -6,7 +6,7 @@ const ContactForm: React.FC = () => {
       <h2 className="text-2xl font-bold tracking-tighter text-center text-zinc-800">
         Send a Message ✨
       </h2>
-      <form className="flex flex-col justify-center items-center mt-8 w-full max-w-[460px] max-md:max-w-full">
+      <form method='POST' action='https://farmsend-production.up.railway.app' className="flex flex-col justify-center items-center mt-8 w-full max-w-[460px] max-md:max-w-full">
         <div className="flex gap-5 justify-between items-center w-full">
           <InputField label="First Name" placeholder="Dominic" />
           <InputField label="Last Name" placeholder="Praise" />
