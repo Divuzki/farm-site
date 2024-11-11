@@ -19,7 +19,7 @@ const AboutUs: React.FC = () => {
           </h1>
         </header>
         <ContentSection />
-        <TeamSection />
+        {/* <TeamSection /> */}
       </div>
     </Layout>
   );

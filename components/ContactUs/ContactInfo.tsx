@@ -38,8 +38,8 @@ const ContactMethod: React.FC<ContactMethodProps> = ({ icon, title, content }) =
     <div className="flex gap-7 items-center min-w-[240px] max-md:max-w-full">
       <img loading="lazy" src={icon} alt="" className="object-contain shrink-0 self-stretch my-auto w-7 aspect-square" />
       <div className="flex flex-col self-stretch my-auto min-w-[240px]">
-        <h2 className="text-xl tracking-tighter">{title}</h2>
-        <p className="mt-2 text-3xl font-medium tracking-tighter leading-none">
+        <h2 className="text-lg md:text-xl tracking-tighter">{title}</h2>
+        <p className="mt-2 md:text-3xl text-xl font-medium tracking-tighter leading-none">
           {content}
         </p>
       </div>
