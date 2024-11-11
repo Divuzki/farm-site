@@ -13,7 +13,7 @@ const ContactForm: React.FC = () => {
         </div>
         <InputField label="Email Address" placeholder="e.g dominic@gmail.com" fullWidth />
         <TextAreaField label="Your Message" placeholder="Write your message" />
-        <button className="overflow-hidden gap-2.5 self-stretch px-20 py-6 mt-8 w-full font-medium text-center text-white bg-green-800 rounded-3xl min-h-[54px] shadow-[0,0,0.20_inset] max-md:px-5 max-md:max-w-full">
+        <button type="submit" className="overflow-hidden gap-2.5 self-stretch px-20 py-6 mt-8 w-full font-medium text-center text-white bg-green-800 rounded-3xl min-h-[54px] shadow-[0,0,0.20_inset] max-md:px-5 max-md:max-w-full">
           Send Message
         </button>
       </form>
