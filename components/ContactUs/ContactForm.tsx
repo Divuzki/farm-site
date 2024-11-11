@@ -8,8 +8,8 @@ const ContactForm: React.FC = () => {
       </h2>
       <form method='POST' action='https://farmsend-production.up.railway.app' className="flex flex-col justify-center items-center mt-8 w-full max-w-[460px] max-md:max-w-full">
         <div className="flex gap-5 justify-between items-center w-full">
-          <InputField label="First Name" placeholder="Dominic" />
-          <InputField label="Last Name" placeholder="Praise" />
+          <InputField label="First Name" fullWidth placeholder="Dominic" />
+          <InputField label="Last Name" fullWidth placeholder="Praise" />
         </div>
         <InputField label="Email Address" placeholder="e.g dominic@gmail.com" fullWidth />
         <TextAreaField label="Your Message" placeholder="Write your message" />
