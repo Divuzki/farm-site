@@ -1,5 +1,5 @@
 import ContentSection from "@/components/AboutUs/ContentSection";
-import TeamSection from "@/components/AboutUs/TeamSection";
+// import TeamSection from "@/components/AboutUs/TeamSection";
 import Layout from "@/components/Layout";
 import React from "react";
 
