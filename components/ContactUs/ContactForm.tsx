@@ -47,6 +47,7 @@ const TextAreaField: React.FC<InputFieldProps> = ({ label, placeholder }) => {
       <label className="leading-7 text-zinc-800">{label}</label>
       <textarea
         placeholder={placeholder}
+        name={label}
         className="overflow-hidden gap-2.5 px-4 pt-4 pb-24 mt-2 w-full bg-white rounded-xl border border-gray-100 border-solid min-h-[120px] shadow-[0px_1px_2px_rgba(47,43,67,0.1)] text-zinc-800 text-opacity-50"
       ></textarea>
     </div>
