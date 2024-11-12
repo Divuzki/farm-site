@@ -33,6 +33,7 @@ const InputField: React.FC<InputFieldProps> = ({ label, placeholder, fullWidth =
       <label className="leading-7 text-zinc-800">{label}</label>
       <input
         type="text"
+        name={label}
         placeholder={placeholder}
         className={`overflow-hidden gap-2.5 self-stretch px-4 py-5 mt-2 ${fullWidth ? 'w-full' : 'max-w-full'} bg-white rounded-xl border border-gray-100 border-solid min-h-[52px] shadow-[0px_1px_2px_rgba(88,98,131,0.2)] text-zinc-800 text-opacity-50`}
       />
