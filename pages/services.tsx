@@ -7,7 +7,7 @@ const servicesData: ServiceData[] = [
   {
     title: "Fish Farming",
     description:
-      "Fish farming is at its best here at JJT integrated Farms, Nigeria . In search of fishes of different sizes ranging from fingerlings to market size or freshly smoked fish? Look no further than JJT farms. Send us to DM to order your share of healthy fish to meet your omega-3 requirements.",
+      "Fish farming is at its best here at JJT integrated Farms, Nigeria . In search of fishes of different sizes ranging from fingerlings to market size or freshly smoked fish? Look no further than JJT farms. Send us a message to order your share of healthy fish to meet your omega-3 requirements.",
     imageSrc:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/95c9ece3eee5284fe3231659ed60d65e930d1905778e444c40646da5288f6ba1?placeholderIfAbsent=true&apiKey=1f7f595eced5468b9fc0d8d091e46289",
     imageAlt: "Fish farming at JJT integrated Farms",
